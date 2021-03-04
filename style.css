@@ -80,4 +80,21 @@ nav a {
 #s3 {
     height: 500px;
     background-color: seashell;
+    /* background-image: url(); */
+}
+.banner-text {
+    width: 512px;
+    padding-top: 50px;
+}
+#s3 h1 {
+    font-size: 50px;
+}
+#s3 p {
+    margin: 30px 0;
+}
+#s3 a {
+    display: inline-block;
+}
+.small {
+    font-size: small;
 }
