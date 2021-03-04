@@ -108,7 +108,7 @@ nav a {
 }
 #s4 {
     background-color: ghostwhite;
-    height: 1000px;
+    height: 1500px;
 }
 .banner-head {
     text-align: center;
@@ -188,4 +188,41 @@ nav a {
     text-align: center;
     display: inline-block;
     margin-right: 15px;
+}
+.banner-wrapper {
+    margin-top: 5%;
+}
+.banner-wrapper::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    width: 30%;
+    /* height: 300px; */
+    text-align: center;
+    padding: 20px;
+}
+.column > img {
+    height: 100px;
+}
+.column p {
+    margin: 20px 0 30px;
+}
+.column h4 {
+    padding: 20px 0;
+    border-top: 1px solid black;
+}
+.column > ul {
+    list-style: none;
+    text-align: left;
+}
+.column .button {
+    display: inline-block;
+    padding: 20px;
+    margin-top: 40px;
+}
+#mid {
+    margin: 0 5%;
 }
