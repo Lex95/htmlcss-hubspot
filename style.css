@@ -17,6 +17,11 @@
 header > * {
     line-height: 80px;
 }
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
 .left-content {
     float: left;
 }
@@ -56,7 +61,22 @@ header > * {
 #s2 {
     height: 80px;
 }
-
+/* logo */
+nav ul {
+    float: right;
+}
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 80px;
+}
+.nav-sel {
+    border: none;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
 #s3 {
     height: 500px;
     background-color: seashell;
