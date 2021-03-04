@@ -79,6 +79,7 @@ nav a {
 }
 #s3 {
     height: 500px;
+    /* da fixare */
     background-color: seashell;
     /* background-image: url(); */
 }
@@ -97,4 +98,42 @@ nav a {
 }
 .small {
     font-size: small;
+}
+#trim {
+    height: 100px;
+    background-color: paleturquoise;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#s4 {
+    background-color: ghostwhite;
+    height: 1000px;
+}
+.banner-head {
+    text-align: center;
+    width: 800px;
+    margin: auto;
+}
+/* immagine */
+.banner-head p {
+    margin: 20px 0;
+}
+.bubble {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.banner-main::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.banner-main > * {
+    float: left;
+}
+.banner-left {
+    width: 30%;
+}
+.banner-right {
+    width: 70%;
 }
