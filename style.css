@@ -3,10 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-#s1 {
-    height: 80px;
-    background-color: ghostwhite;
-    border-bottom: 1px solid black;
+/* settaggi globali */
+a {
+    text-decoration: none;
 }
 .container {
     width: 1024px;
@@ -14,13 +13,26 @@
     margin: auto;
     position: relative;
 }
-header > * {
-    line-height: 80px;
-}
-header::after {
+.clearfix::after {
     content: '';
     display: table;
     clear: both;
+}
+.button {
+    padding: 10px;
+    border-radius: 5px;
+}
+.small {
+    font-size: small;
+}
+/* prima sezione azzurrina */
+#s1 {
+    height: 80px;
+    background-color: ghostwhite;
+    border-bottom: 1px solid black;
+}
+header > * {
+    line-height: 80px;
 }
 .left-content {
     float: left;
@@ -34,7 +46,6 @@ header::after {
     margin: 0 30px 0 20px;
 }
 .left-content > a {
-    text-decoration: none;
     color: black;
 }
 .right-content {
@@ -42,11 +53,6 @@ header::after {
 }
 .right-content > * {
     margin-left: 20px;
-}
-.button {
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
 }
 .b1 {
     color: coral;
@@ -56,13 +62,9 @@ header::after {
     color: white;
     background-color: coral;
 }
+/* seconda sezione bianca */
 #s2 {
     height: 80px;
-}
-#s2 > .container::after {
-    content: '';
-    display: table;
-    clear: both;
 }
 #s2 img {
     height: 80px;
@@ -81,14 +83,13 @@ nav li {
     border: none;
 }
 nav a {
-    text-decoration: none;
     color: black;
 }
+/* terza sezione rosa */
 #s3 {
     height: 600px;
     background-image: url(img/jumbotron.png);
     background-size: 100% 100%;
-    background-position: right;
 }
 #s3 .banner-text {
     width: 512px;
@@ -103,18 +104,15 @@ nav a {
 #s3 a {
     display: inline-block;
 }
-.small {
-    font-size: small;
-}
+/* quarta sezione bianca */
 #s4 {
     background-color: ghostwhite;
-    height: 1250px;
+    padding: 30px 0;
 }
 .banner-head {
     text-align: center;
     width: 800px;
     margin: auto;
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 .banner-head img {
@@ -130,11 +128,6 @@ nav a {
 }
 .banner-main {
     height: 300px;
-}
-.banner-main::after {
-    content: '';
-    display: table;
-    clear: both;
 }
 .banner-main > * {
     float: left;
@@ -192,11 +185,6 @@ nav a {
 .banner-wrapper {
     margin-top: 5%;
 }
-.banner-wrapper::after{
-    content: '';
-    display: table;
-    clear: both;
-}
 .column {
     float: left;
     width: 30%;
@@ -225,6 +213,7 @@ nav a {
 #mid {
     margin: 0 5%;
 }
+/* quinta sezione verde */
 #s5 {
     background-color: lightseagreen;
     color: white;
@@ -236,11 +225,6 @@ nav a {
 }
 .head-text p {
     margin: 30px 0 50px;
-}
-.table-wrapper::after {
-    content: '';
-    display: table;
-    clear: both;
 }
 .table-cell {
     width: 25%;
@@ -264,6 +248,7 @@ nav a {
 .table-cell p {
     margin-top: 10px;
 }
+/* sesta sezione */
 #s6 {
     height: 550px;
     padding: 30px 0;
@@ -284,11 +269,6 @@ nav a {
     position: absolute;
     top: 30px;
     right: 100px;
-}
-#top-right-elem::after {
-    content: '';
-    display: table;
-    clear: both;
 }
 #top-right-elem ul {
     list-style: none;
@@ -325,6 +305,7 @@ nav a {
 #bottom-right-elem img {
     width: 100%;
 }
+/* settima sezione blu */
 #s7 {
     background-color: darkslategray;
     color: white;
@@ -332,11 +313,6 @@ nav a {
 }
 .column-section {
     margin-bottom: 100px;
-}
-.column-section::after {
-    content: '';
-    display: table;
-    clear: both;
 }
 .col {
     width: 25%;
@@ -352,7 +328,6 @@ nav a {
     margin: 10px 0;
 }
 #s7 a {
-    text-decoration: none;
     color: white;
 }
 #s7 a.b3 {
@@ -375,11 +350,6 @@ nav a {
 }
 footer {
     margin-top: 30px;
-}
-footer::after {
-    content: '';
-    display: table;
-    clear: both;
 }
 .logo-left {
     float: left;
