@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 /* settaggi globali */
+section {
+    padding: 30px 0;
+}
 a {
     text-decoration: none;
 }
@@ -17,9 +20,27 @@ a {
     display: table;
     clear: both;
 }
+/* .left {
+    float: left;
+}
+.right {
+    float: right;
+} */
 .button {
     padding: 10px;
     border-radius: 5px;
+    display: inline-block;
+}
+.b1 {
+    color: coral;
+    border: 1px solid coral;
+}
+.b2 {
+    color: white;
+    background-color: coral;
+}
+.big {
+    padding: 20px;
 }
 .small {
     font-size: small;
@@ -29,9 +50,6 @@ a {
     height: 80px;
     background-color: ghostwhite;
     border-bottom: 1px solid black;
-}
-header > * {
-    line-height: 80px;
 }
 .left-content {
     float: left;
@@ -53,21 +71,12 @@ header > * {
 .right-content > * {
     margin-left: 20px;
 }
-.b1 {
-    color: coral;
-    border: 1px solid coral;
-}
-.b2 {
-    color: white;
-    background-color: coral;
-}
 /* seconda sezione bianca */
 #s2 {
     height: 80px;
 }
 #s2 img {
-    height: 80px;
-    padding: 20px 0;
+    height: 100%;
     float: left;
 }
 nav ul {
@@ -76,7 +85,6 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 20px;
-    line-height: 80px;
 }
 .nav-sel {
     border: none;
@@ -100,13 +108,9 @@ nav a {
 #s3 p {
     margin: 30px 0;
 }
-#s3 a {
-    display: inline-block;
-}
 /* quarta sezione bianca */
 #s4 {
     background-color: ghostwhite;
-    padding: 30px 0;
 }
 .banner-head {
     text-align: center;
@@ -142,8 +146,6 @@ nav a {
     display: block;
 }
 .banner-left > .button {
-    padding: 20px;
-    display: inline-block;
     margin-top: 20px;
 }
 .banner-right {
@@ -206,8 +208,6 @@ nav a {
     text-align: left;
 }
 .column .button {
-    display: inline-block;
-    padding: 20px;
     margin-top: 40px;
 }
 #mid {
@@ -217,7 +217,6 @@ nav a {
 #s5 {
     background-color: lightseagreen;
     color: white;
-    padding: 30px 0;
     text-align: center;
 }
 .head-text h2 {
@@ -249,9 +248,6 @@ nav a {
     margin-top: 10px;
 }
 /* sesta sezione */
-#s6 {
-    padding: 30px 0;
-}
 #top-left-elem {
     width: 200px;
     margin-left: 100px;
@@ -291,9 +287,6 @@ nav a {
 #bottom-left-elem p {
     margin: 30px 0;
 }
-#bottom-left-elem .button {
-    display: inline-block;
-}
 #bottom-left-elem .small {
     margin-bottom: 0;
 }
@@ -308,7 +301,6 @@ nav a {
 #s7 {
     background-color: darkslategray;
     color: white;
-    padding: 30px 0;
 }
 .column-section {
     margin-bottom: 100px;
@@ -329,10 +321,9 @@ nav a {
 #s7 a {
     color: white;
 }
-#s7 a.b3 {
+#s7 .button {
     color: darkslategray;
     background-color: white;
-    display: inline-block;
 }
 #logo-list img {
     width: 20px;
