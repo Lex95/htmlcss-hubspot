@@ -264,3 +264,64 @@ nav a {
 .table-cell p {
     margin-top: 10px;
 }
+#s6 {
+    height: 550px;
+    padding: 30px 0;
+}
+#top-left-elem {
+    width: 200px;
+    position: absolute;
+    left: 100px;
+}
+#top-left-elem h2 {
+    font-size: 50px;
+}
+#top-left-elem p {
+    margin-top: 20px;
+}
+#top-right-elem {
+    width: 400px;
+    position: absolute;
+    top: 30px;
+    right: 100px;
+}
+#top-right-elem::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+#top-right-elem ul {
+    list-style: none;
+}
+#top-right-elem li {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+#top-right-elem img {
+    width: 100%;
+}
+#bottom-left-elem {
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#bottom-left-elem p {
+    margin: 30px 0;
+}
+#bottom-left-elem .button {
+    display: inline-block;
+}
+#bottom-left-elem .small {
+    margin-bottom: 0;
+}
+#bottom-right-elem {
+    width: 250px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#bottom-right-elem img {
+    width: 100%;
+}
