@@ -119,15 +119,11 @@ nav a {
     border: 1px solid black;
     border-radius: 10px;
 }
-.banner-main {
-    height: 300px;
-}
 .banner-main > * {
     float: left;
 }
 .banner-left {
     width: 30%;
-    height: 100%;
     padding: 50px 70px;
     text-align: center;
 }
@@ -140,7 +136,7 @@ nav a {
 }
 .banner-right {
     width: 70%;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 .banner-right h4 {
     display: inline-block;
