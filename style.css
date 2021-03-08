@@ -339,9 +339,10 @@ footer {
 }
 /* chat fixed */
 .chat {
-    width: 300px;
+    width: 350px;
     height: 500px;
     background-color: ghostwhite;
+    border-radius: 10px;
     position: fixed;
     right: 10px;
     bottom: 100px;
@@ -349,22 +350,29 @@ footer {
 .chat-head {
     height: 50px;
     background-color: darkslategray;
-}
-.chat-head > * {
-    display: inline-block;
-    line-height: 50px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
 }
 .chat-head img {
-    width: 25px;
+    height: 30px;
+}
+.chat-head > * {
+    vertical-align: middle;
 }
 .chat-text {
-    width: 270px;
+    width: 336px;
     height: 250px;
     background-color: white;
+    padding-left: 50px;
+    display: inline-block;
 }
 .message {
+    display: inline-block;
     background-color: lavender;
     padding: 10px;
+    margin-bottom: 5px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
@@ -372,4 +380,85 @@ footer {
 #m1 {
     border-top-right-radius: 0;
     padding-top: 5px;
+}
+.chat-text ul {
+    list-style: none;
+}
+.chat-text ul li {
+    margin: 10px 0 10px 10px;
+}
+.b4 {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+.scrollbar {
+    width: 5px;
+    height: 200px;
+    background-color: cornflowerblue;
+    border-radius: 2.5px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.security-adv {
+    background-color: white;
+    margin-top: 5px;
+    height: 100px;
+    padding: 20px 10px 20px 20px;
+}
+.security-adv a {
+    color: black;
+    font-weight: bolder;
+}
+.chat-foot {
+    background-color: white;
+    margin-top: 2px;
+    padding: 10px;
+    height: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.chat-foot input {
+    background-color: ghostwhite;
+    border: none;
+    color: grey;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+}
+.chat-foot a > img {
+    height: 15px;
+    margin: 10px 0 0 10px;
+}
+.mark {
+    margin-top: 15px;
+    text-align: center;
+}
+.mark > * {
+    vertical-align: middle;
+}
+.mark img {
+    height: 20px;
+}
+.mark p {
+    display: inline-block;
+}
+.mark a {
+    color: coral;
+}
+.close-button {
+    position: fixed;
+    right: 10px;
+    bottom: 30px;   
+}
+.close-button a {
+    background-color: darkslategray;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: x-large;
+    display: block;
 }
