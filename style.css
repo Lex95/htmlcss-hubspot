@@ -50,6 +50,7 @@ a {
     height: 80px;
     background-color: ghostwhite;
     border-bottom: 1px solid black;
+    padding: 0;
 }
 #lang-sel {
     border: none;
@@ -59,10 +60,16 @@ a {
     border-right: 1px solid black;
     margin: 0 30px 0 20px;
 }
+.header-content.left {
+    padding-top: 25px;
+}
 .header-content.left > a {
     color: black;
 }
-.header-content, .right > * {
+.header-content.right {
+    padding-top: 20px;
+}
+.header-content.right > * {
     margin-left: 20px;
 }
 /* seconda sezione bianca */
@@ -234,49 +241,49 @@ nav a {
     margin-top: 10px;
 }
 /* sesta sezione */
-#top-left-elem {
+.top .left {
     width: 200px;
     margin-left: 100px;
 }
-#top-left-elem h2 {
+.top .left h2 {
     font-size: 50px;
 }
-#top-left-elem p {
+.top .left p {
     margin-top: 20px;
 }
-#top-right-elem {
+.top .right {
     width: 400px;
     margin-top: 30px;
     margin-right: 100px;
 }
-#top-right-elem ul {
+.top .right ul {
     list-style: none;
 }
-#top-right-elem li {
+.top .right li {
     float: left;
     width: 25%;
     padding: 5px;
 }
-#top-right-elem img {
+.top .right img {
     width: 100%;
 }
 .bottom {
     margin-top: 30px;
 }
-#bottom-left-elem {
+.bottom .left {
     width: 400px;
     margin-top: 70px;
 }
-#bottom-left-elem p {
+.bottom .left p {
     margin: 30px 0;
 }
-#bottom-left-elem .small {
+.bottom .left .small {
     margin-bottom: 0;
 }
-#bottom-right-elem {
+.bottom .right {
     width: 250px;
 }
-#bottom-right-elem img {
+.bottom .right img {
     width: 100%;
 }
 /* settima sezione blu */
