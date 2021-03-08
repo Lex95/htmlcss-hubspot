@@ -337,3 +337,39 @@ footer {
 .logo-left, .info-links {
     vertical-align: middle;
 }
+/* chat fixed */
+.chat {
+    width: 300px;
+    height: 500px;
+    background-color: ghostwhite;
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+}
+.chat-head {
+    height: 50px;
+    background-color: darkslategray;
+}
+.chat-head > * {
+    display: inline-block;
+    line-height: 50px;
+}
+.chat-head img {
+    width: 25px;
+}
+.chat-text {
+    width: 270px;
+    height: 250px;
+    background-color: white;
+}
+.message {
+    background-color: lavender;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#m1 {
+    border-top-right-radius: 0;
+    padding-top: 5px;
+}
