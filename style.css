@@ -52,10 +52,6 @@ a {
     border-bottom: 1px solid black;
     padding: 0;
 }
-#lang-sel {
-    border: none;
-    background-color: ghostwhite;
-}
 .vertical-rule {
     border-right: 1px solid black;
     margin: 0 30px 0 20px;
@@ -82,9 +78,6 @@ a {
 nav li {
     display: inline-block;
     margin-left: 20px;
-}
-.nav-sel {
-    border: none;
 }
 nav a {
     color: black;
